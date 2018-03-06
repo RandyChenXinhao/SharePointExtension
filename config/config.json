@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "aiib-spfx-ext-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/aiibSpfxExt/AiibSpfxExtApplicationCustomizer.js",
+          "manifest": "./src/extensions/aiibSpfxExt/AiibSpfxExtApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AiibSpfxExtApplicationCustomizerStrings": "lib/extensions/aiibSpfxExt/loc/{locale}.js"
+  }
+}

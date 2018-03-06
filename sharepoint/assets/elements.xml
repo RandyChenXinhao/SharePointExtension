@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="AiibSpfxExt"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="bb805911-b453-40d4-81be-1733cc06a97a"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>
